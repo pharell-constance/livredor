@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -10,7 +11,7 @@
   <div class="container">
     <h1>Register</h1>
     <p>Please fill in this form to create an account.</p>
-    <hr>
+
 
     <label for="pseudo"><b>Pseudo</b></label>
     <input type="text" placeholder="Entrez votre pseudo" name="pseudo" id="pseudo" required>
@@ -20,7 +21,7 @@
 
     <label for="psw-repeat"><b>Repeat Password</b></label>
     <input type="password" placeholder="Répétez le mot de passe" name="psw-repeat" id="psw-repeat" required>
-    <hr>
+
 
     <button type="submit" class="registerbtn">Register</button>
   </div>

@@ -1,0 +1,49 @@
+:root{
+--clr-cube-a0: oklab(32% 0.032 -0.083);
+--clr-cube-a10: oklab(42.1% 0.036 -0.089);
+--clr-cube-a20: oklab(52.1% 0.043 -0.12);
+--clr-cube-a30: oklab(87.3% 0 0);
+--clr-cube-a40: oklab(22.3% 0.001 -0.002);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: var(--clr-cube-a40);
+}
+
+h1, p, label{
+    color: var(--clr-cube-a30)  ;
+}
+
+input {
+border: none;
+background-color: var(--clr-cube-a0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    padding-left: 5px;
+}
+
+
+button{
+    border: none;
+    background-color: var(--clr-cube-a10);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:5px ;
+    padding-right:5px ;
+}
+
+button:hover{
+    background-color: var(--clr-cube-a20);
+
+}
+
+.container{
+
+}
