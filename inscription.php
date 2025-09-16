@@ -6,16 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="inscription.php">
-        <div class="container">
-            <h1>Inscription</h1>
-            <p>Remplissez ce formulaire pour créer un compte</p>
-            <hr>
-            <label for="user"><b>Pseudo</b></label>
-            <imput type = "text" placeholder = "entrez votre pseudo" name = "pseudo" id = "pseudo" required />
-            
+<form action="action_page.php">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
 
-        </div>
-    </form>
+    <label for="pseudo"><b>Pseudo</b></label>
+    <input type="text" placeholder="Entrez votre pseudo" name="pseudo" id="pseudo" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Entrez un mot de passe" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Répétez le mot de passe" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Vous avez déja un compte ? <a href="#">Connectez vous</a>.</p>
+  </div>
+</form>
 </body>
 </html>
